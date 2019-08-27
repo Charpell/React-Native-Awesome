@@ -8,32 +8,20 @@
 
 import React, {Fragment} from 'react';
 import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
+  SafeAreaView
 } from 'react-native';
+
+import Flexxing from './flexxing/App'
 
 const App = () => {
   return (
-    <Fragment>
-      <StatusBar barStyle="dark-content" />
-        <View style={styles.container}>
-          <Text>Hello</Text>
-        </View>
-    </Fragment>
+    <SafeAreaView style={{
+      flex: 1
+    }}>
+      <Flexxing />
+    </SafeAreaView>
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: 'yellow',
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-});
 
 export default App;
