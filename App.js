@@ -12,13 +12,15 @@ import {
 } from 'react-native';
 
 import Flexxing from './flexxing/App'
+import MovieList from './movielist/App'
 
 const App = () => {
   return (
     <SafeAreaView style={{
       flex: 1
     }}>
-      <Flexxing />
+      {/* <Flexxing /> */}
+      <MovieList />
     </SafeAreaView>
   );
 };
