@@ -10,9 +10,12 @@ import React, {Fragment} from 'react';
 import {
   SafeAreaView
 } from 'react-native';
+console.disableYellowBox = true;
 
 import Flexxing from './flexxing/App'
 import MovieList from './movielist/App'
+import Options from './options/App';
+import Animating from './animation/App'
 
 const App = () => {
   return (
@@ -20,7 +23,9 @@ const App = () => {
       flex: 1
     }}>
       {/* <Flexxing /> */}
-      <MovieList />
+      {/* <MovieList /> */}
+      {/* <Options /> */}
+      <Animating />
     </SafeAreaView>
   );
 };
