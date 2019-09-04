@@ -14,7 +14,6 @@ console.disableYellowBox = true;
 
 import Flexxing from './flexxing/App'
 import MovieList from './movielist/App'
-import Options from './options/App';
 import Animating from './animation/App'
 
 const App = () => {
@@ -22,10 +21,9 @@ const App = () => {
     <SafeAreaView style={{
       flex: 1
     }}>
-      {/* <Flexxing /> */}
+      <Flexxing />
       {/* <MovieList /> */}
-      {/* <Options /> */}
-      <Animating />
+      {/* <Animating /> */}
     </SafeAreaView>
   );
 };
