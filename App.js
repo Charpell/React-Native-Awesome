@@ -15,15 +15,17 @@ console.disableYellowBox = true;
 import Flexxing from './flexxing/App'
 import MovieList from './movielist/App'
 import Animating from './animation/App'
+import Drag from './dragdrop/App'
 
 const App = () => {
   return (
     <SafeAreaView style={{
       flex: 1
     }}>
-      <Flexxing />
+      {/* <Flexxing /> */}
       {/* <MovieList /> */}
       {/* <Animating /> */}
+      <Drag />
     </SafeAreaView>
   );
 };
