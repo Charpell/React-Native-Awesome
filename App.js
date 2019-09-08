@@ -17,6 +17,7 @@ import MovieList from './movielist/App'
 import Animating from './animation/App'
 import Drag from './dragdrop/App'
 import SlidingCard from './slidingcard/App'
+import HorizontalCalender from './horizontalcalender/App'
 
 const App = () => {
   return (
@@ -27,7 +28,8 @@ const App = () => {
       {/* <MovieList /> */}
       {/* <Animating /> */}
       {/* <Drag /> */}
-      <SlidingCard />
+      {/* <SlidingCard /> */}
+      <HorizontalCalender />
     </SafeAreaView>
   );
 };
