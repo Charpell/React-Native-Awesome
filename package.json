@@ -16,7 +16,6 @@
     "react-native": "0.60.5",
     "react-native-vector-icons": "^6.6.0",
     "react-navigation": "^3.12.1",
-    "rnal": "^0.2.1",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {

@@ -16,6 +16,7 @@ import Flexxing from './flexxing/App'
 import MovieList from './movielist/App'
 import Animating from './animation/App'
 import Drag from './dragdrop/App'
+import SlidingCard from './slidingcard/App'
 
 const App = () => {
   return (
@@ -25,7 +26,8 @@ const App = () => {
       {/* <Flexxing /> */}
       {/* <MovieList /> */}
       {/* <Animating /> */}
-      <Drag />
+      {/* <Drag /> */}
+      <SlidingCard />
     </SafeAreaView>
   );
 };
